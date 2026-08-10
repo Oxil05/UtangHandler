@@ -34,6 +34,14 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
+      - name: Build Web Application
+        run: npm run build
+
+      - name: Sync Capacitor Android
+        run: npx cap sync android
+        env:
+          CI: true
+
       - name: Create local.properties
         run: |
           echo "sdk.dir=$ANDROID_HOME" > android/local.properties
