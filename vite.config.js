@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './', // Relative base path so it works on GitHub Pages, Vercel, Netlify, or local network
   plugins: [
     react(),
     VitePWA({
