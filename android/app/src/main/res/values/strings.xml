@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">UtangHandler</string>
+    <string name="title_activity_main">UtangHandler</string>
+    <string name="package_name">com.oxil05.utanghandler</string>
+    <string name="custom_url_scheme">com.oxil05.utanghandler</string>
+</resources>
